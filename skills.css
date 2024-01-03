@@ -1,0 +1,357 @@
+/* .MainSkill{
+    width: 100%;
+    /* height: 700px; */
+    /* background-color: red; */
+    /* color: white; */
+    /* padding: 30px; */
+    /* display: inline-block; */
+    /* margin-left: 120px; */
+    /* gap: 30px; */
+    /* position: absolute; */
+/* } */
+/* .Scard{
+  /* position: absolute; */
+  /* padding: 30px; */
+  /* height: 250px; */
+  /* width: 250px; */
+  /* border-left: 2px solid skyblue; */
+  /* border-right: 2px solid skyblue; */
+  /* border-bottom: 2px solid skyblue; */
+  /* display: inline-block; */
+  /* margin: 30px; */
+  /* background-color: red; */
+/* } */ 
+
+
+.Skill{
+	
+ -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:60vh;
+  width:100%;
+  display: flex;
+  gap: 90px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  background-color:#FAFAFC;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  /* -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+  /* box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('pHOTO/c++.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('pHOTO/c++.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+.property-image1
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('pHOTO/html.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image1:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('pHOTO/html.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.property-image2
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('Pic/css.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image2:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('Pic/css.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.property-image3
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('pHOTO/js.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image3:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('pHOTO/js.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.property-image4
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('Pic/sql1.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image4:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('Pic/sql1.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.property-image5
+{
+  height:6em;
+  width:5em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  border-radius: 0px 25px 25px 25px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-image5:hover{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+.property-card:hover .property-image1
+{
+  height:18em;
+}
+.property-card:hover .property-image2
+{
+  height:18em;
+}
+.property-card:hover .property-image3
+{
+  height:18em;
+}
+.property-card:hover .property-image4
+{
+  height:18em;
+}
+.property-card:hover .property-image5
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:#FAFAFC;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:#FAFAFC;
+  /* cursor:pointer; */
+}
+
+
+/* Optional
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+*/

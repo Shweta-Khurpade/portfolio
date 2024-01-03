@@ -1,0 +1,214 @@
+.AbtMe{
+    text-align: center;
+    color:white;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(67, 69, 112);
+    font-weight: bold;
+ 
+    font-size: 33px;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.Abt{
+    background: rgb(67, 69, 112);
+    background: radial-gradient(
+      circle,
+      rgba(67, 69, 112, 1) 3%,
+      rgba(35, 36, 57, 1) 60%
+    );
+}
+
+.ImgAbt img{
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.MainAbt{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  /* position: relative; */
+}
+
+.ImgAbt{
+  position: relative;
+  margin-left: 50px;
+  padding: 10px;
+  width: 45%;
+  height: 600px;
+  /* border: 1px solid skyblue; */
+  background-color: transparent;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 17px;
+  animation:lightSpeedInLeft;
+  animation-duration: 15s;
+ 
+}
+
+.AbtDetail{
+  position: relative;
+  padding: 30px;
+  width: 45%;
+  height: 600px;
+  /* border: 1px solid skyblue; */
+  text-align: center;
+  color: white;
+  
+  background-color: transparent;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  animation:lightSpeedInRight;
+  animation-duration: 15s;
+ 
+}
+.AbtDetail:hover{
+  border-left: 2px solid skyblue;
+  border-bottom: 2px solid skyblue;
+  box-shadow: 5px 5px 5px black;
+}
+
+.ImgAbt:hover{
+  border-right: 2px solid skyblue;
+  border-bottom: 2px solid skyblue;
+  box-shadow: 5px 5px 5px black;
+}
+
+.AbtDetail p{
+  font-size: 17px;
+  padding-top: 20px;
+  /* font-family: "Nunito", sans-serif; */
+  
+}
+
+.AbtDetail h3{
+  margin-top: 20px;
+  font-size: 15px;
+  display: inline;
+  color: white;
+}
+.AbtDetail a{
+  margin-left: 30px;
+    position: relative;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid skyblue;
+    padding: 10px;
+    font-family: "Nunito", sans-serif;
+}
+.AbtDetail .a1{
+  margin-left: 119px;
+}
+.AbtDetail .b1{
+  /* position: relative; */
+  top: 30px;
+  
+}
+
+.AbtDetail span{
+  color: rgb(136, 173, 247);
+}
+
+
+.custom-btn {
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  /* background: transparent; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-3 {
+  background: rgb(0,172,238);
+  color: white;
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  color: white;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: white;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  color: white;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
